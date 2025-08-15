@@ -3,32 +3,32 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Abnormal Thyroid Hormone Level Detection",
+    description: "Flask-based ML web app that predicts thyroid malfunction risk from user inputs; includes data preprocessing, notebooks for modeling, and a simple web UI.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Flask", "Python", "Machine Learning", "HTML/CSS/JS", "Jupyter"],
+    demoUrl: "https://github.com/Teja079/Detection-of-Thyroid-Malfunctioning-Using-ML-Algorithms",
+    githubUrl: "https://github.com/Teja079/Detection-of-Thyroid-Malfunctioning-Using-ML-Algorithms",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Intelligent Traffic Detection System",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Real-time vehicle detection and traffic analytics using YOLOv8; includes ambulance detection and basic signal control logic.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Python", "OpenCV", "YOLOv8"],
+    demoUrl: "https://github.com/Teja079/Intelligent-Traffic-Detection-System",
+    githubUrl: "https://github.com/Teja079/Intelligent-Traffic-Detection-System",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Reddit Engine Clone",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Go-based learning project inspired by Reddit’s core mechanics; small backend experiment with a linked demo video.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Go", "Concurrency", "Goroutines", "Channels"],
+    demoUrl:  "https://github.com/Teja079/Reddit-Engine-Clone",
+    githubUrl:  "https://github.com/Teja079/Reddit-Engine-Clone",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Teja079"
           >
             Check My Github <ArrowRight size={16} />
           </a>
